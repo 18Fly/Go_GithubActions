@@ -6,8 +6,6 @@ import (
 	"image/color"
 	"math"
 	"time"
-
-	"golang.org/x/tour/pic"
 )
 
 type Vertes struct {
@@ -104,12 +102,12 @@ func (i Image) At(x, y int) color.Color {
 }
 
 func main() {
-	// v := Vertes{3, 4}
-	// fmt.Println(v.Abs()) // 方法即函数
-	// f := MyFloat(-math.Sqrt2)
-	// fmt.Println(f.Abs())
-	// v.Scale(2)
-	// fmt.Println(v)
+	v := Vertes{3, 4}
+	fmt.Println(v.Abs()) // 方法即函数
+	f := MyFloat(-math.Sqrt2)
+	fmt.Println(f.Abs())
+	v.Scale(2)
+	fmt.Println(v)
 
 	// var i interface{} = "hello"
 	// v, ok := i.(int) // 如果断言触发，会讲v置位断言要求类型的零值
@@ -139,5 +137,5 @@ func main() {
 	// fmt.Println(Sqrt(-2))
 	// fmt.Println('A')
 
-	pic.ShowImage(Image{})
+	// pic.ShowImage(Image{})
 }
