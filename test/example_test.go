@@ -1,8 +1,9 @@
 package test
 
 import (
-	"studyProject/say"
 	"testing"
+
+	"github.com/18Fly/mydemo/say"
 )
 
 func TestHello(t *testing.T) {
