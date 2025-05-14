@@ -138,4 +138,5 @@ func main() {
 	// fmt.Println('A')
 
 	// pic.ShowImage(Image{})
+
 }
