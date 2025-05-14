@@ -4,8 +4,7 @@ name: Go
 
 on:
   push:
-    tags:
-      - go*
+    branches: [main]
 
 jobs:
   build:
